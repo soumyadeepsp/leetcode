@@ -27,6 +27,7 @@ public class RemoveDuplicatesFromSortedArray {
                 ++c;
             }
         }
+        System.out.println("number of unique elements = " + c);
         removeDuplicatesFromSortedArray(arr, 0, n-1);
         scan.close();
     }

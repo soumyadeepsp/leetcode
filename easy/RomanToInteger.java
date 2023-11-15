@@ -34,5 +34,6 @@ public class RomanToInteger {
         Scanner scan = new Scanner(System.in);
         String s = scan.next();
         System.out.println(romanToInteger(s));
+        scan.close();
     }
 }
