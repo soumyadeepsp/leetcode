@@ -1,8 +1,11 @@
 package easy;
 
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Merge2SortedArraysInPlace {
+    public static List<Integer> list = new LinkedList<>();
     public static void merge2SortedArraysInPlace(int[] nums1, int m, int[] nums2, int n) {
         int i = 0;
         int j = 0;
