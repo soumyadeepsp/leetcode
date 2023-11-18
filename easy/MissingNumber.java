@@ -22,7 +22,11 @@ public class MissingNumber {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
-        System.out.println(missingNumber(n));
+        int[] arr = new int[n];
+        for (int i=0; i<n; i++) {
+            arr[i] = scan.nextInt();
+        }
+        System.out.println(missingNumber(arr));
         scan.close();
     }
 }
